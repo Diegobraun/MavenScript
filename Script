@@ -1,0 +1,6 @@
+--CREATE A REPOSITORY TO CARRY THE PROJECT
+mvn archetype:generate -DartifactId=produtos -DgroupId=br.com.alura.maven -DinteractiveMode=false -DarchetypeArtifactId=maven-archetype-quickstart 
+
+--TO TEST
+mvn compile
+mvn test
